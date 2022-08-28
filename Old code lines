@@ -1,0 +1,28 @@
+secret_number = 9
+guess_count = 0
+guess_limit = 3
+
+while guess_count < guess_limit:
+    guess = int(input("Guess: "))
+    guess_count += 1
+    if guess == secret_number:
+        print("You won!")
+        break
+
+
+
+-
+#weight_lbs = input('What is your weight in pounds? ')
+
+#weight_kg = float(weight_lbs) * 0.45
+
+#Msg = f'Your weight in kilograms is {weight_kg}kgs'
+
+#print(Msg)
+
+#weight_lbs = input('What is your weight in pounds? ')
+
+#weight_kg = float(x) * 2.2
+
+#print (float(x)) + 'kg'
+
